@@ -66,6 +66,8 @@ Two models are compared:
 | Random Forest | 0.80     | 0.75     | 0.80   | 0.77     |
 | XGBoost       | 0.90     | 0.85     | 0.90   | 0.87     |
 
+The comparison shows that XGBoost outperforms Random Forest on the sample dataset, achieving higher precision and recall, making it more effective for fraud detection scenarios.
+
 *Note: Results are based on sample dataset and may vary with real-world data.*
 
 ## How to Run
