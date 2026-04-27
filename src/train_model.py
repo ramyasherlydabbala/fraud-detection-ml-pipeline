@@ -1,21 +1,12 @@
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
-import pandas as pd
-def load_data():
-   # dummy example (we’ll replace later)
-   data = pd.DataFrame({
-       'feature1': [1,2,3,4,5,6],
-       'feature2': [2,3,4,5,6,7],
-       'is_fraud': [0,0,0,1,1,1]
-   })
-   return data
+from data_processing import load_data, preprocess_data
+from evaluate_model import evaluate
 def train():
    df = load_data()
-   X = df[['feature1','feature2']]
-   y = df['is_fraud']
+   X_train, X_test, y_train, y_test = preprocess_data(df)
    model = RandomForestClassifier()
-   model.fit(X, y)
-   preds = model.predict(X)
-   print(classification_report(y, preds))
+   model.fit(X_train, y_train)
+   preds = model.predict(X_test)
+   evaluate(y_test, preds)
 if __name__ == "__main__":
    train()
