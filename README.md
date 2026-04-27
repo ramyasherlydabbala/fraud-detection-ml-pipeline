@@ -39,3 +39,14 @@ fraud-detection-ml-pipeline/
 
 ## Dataset
 This project uses a sample fraud detection dataset with features and fraud labels.
+
+## Model Evaluation
+The project evaluates fraud detection models using:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+Two models are compared:
+- Random Forest
+- XGBoost
