@@ -1,10 +1,18 @@
 # Fraud Detection ML Pipeline
 
 ## Overview
-This project builds an end-to-end machine learning pipeline to detect fraudulent transactions using Python, Scikit-learn, XGBoost, and LightGBM. This project compares multiple machine learning models to improve fraud detection accuracy and reduce false positives.
+This project builds an end-to-end machine learning pipeline to detect fraudulent transactions. It compares multiple models (Random Forest and XGBoost) to improve detection accuracy and reduce false positives.
+The pipeline includes data preprocessing, feature scaling, model training, evaluation, and comparison using standard classification metrics.
 
 ## Problem Statement
 Fraud detection systems often generate false-positive alerts. This project focuses on building a model that improves fraud detection accuracy while reducing unnecessary alerts.
+
+## Key Highlights
+- Built an end-to-end ML pipeline for fraud detection
+- Compared multiple models (Random Forest vs XGBoost)
+- Evaluated using Accuracy, Precision, Recall, and F1 Score
+- Implemented feature scaling and train-test split
+- Structured project following real-world ML workflow
 
 ## Tech Stack
 - Python
@@ -64,3 +72,9 @@ Recall: 0.90
 F1 Score: 0.87  
 
 *Note: Results are based on sample dataset and may vary with real-world data.*
+
+## How to Run
+1. Install dependencies:
+  pip install -r requirements.txt
+2. Run the model:
+  python src/train_model.py
