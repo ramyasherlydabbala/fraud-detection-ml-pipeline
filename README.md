@@ -1,4 +1,5 @@
 # Fraud Detection ML Pipeline
+End-to-end machine learning project to detect fraudulent transactions using Random Forest and XGBoost, with model comparison and evaluation.
 
 ## Overview
 This project builds an end-to-end machine learning pipeline to detect fraudulent transactions. It compares multiple models (Random Forest and XGBoost) to improve detection accuracy and reduce false positives.
