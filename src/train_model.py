@@ -1,3 +1,5 @@
+print("Starting Fraud Detection Pipeline...\n")
+
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from data_processing import load_data, preprocess_data
