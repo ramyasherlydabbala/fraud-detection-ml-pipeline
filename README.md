@@ -34,7 +34,8 @@ fraud-detection-ml-pipeline/
 │   ├── train_model.py
 │   └── evaluate_model.py
 │── requirements.txt
-│── README.md
+│── README.md      
+
 
 ## Dataset
 This project uses a sample fraud detection dataset with features and fraud labels.
