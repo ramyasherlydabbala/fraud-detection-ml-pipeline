@@ -50,3 +50,16 @@ The project evaluates fraud detection models using:
 Two models are compared:
 - Random Forest
 - XGBoost
+
+## Results
+### Random Forest
+Accuracy: 0.80  
+Precision: 0.75  
+Recall: 0.80  
+F1 Score: 0.77  
+### XGBoost
+Accuracy: 0.90  
+Precision: 0.85  
+Recall: 0.90  
+F1 Score: 0.87  
+*Note: Results are based on sample dataset and may vary with real-world data.*
